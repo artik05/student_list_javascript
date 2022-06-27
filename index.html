@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div id="app">
+      <div class="student-input">
+        <div>
+          <label>Name</label>
+          <input type="text" id="name" />
+        </div>
+        <div>
+          <label>Roll Number</label>
+          <input type="text" id="rollNbr" />
+        </div>
+        <div>
+          <label>Class</label>
+          <input type="text" id="class" />
+        </div>
+        <div>
+          <button onclick="onAddClicked();">Add</button>
+        </div>
+      </div>
+
+      <div id="student-list">
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Roll #</th>
+              <th>Class</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>

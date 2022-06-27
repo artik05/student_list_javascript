@@ -1,0 +1,25 @@
+.student-input {
+  display: flex;
+  padding: 20px;
+}
+
+button {
+  margin-top: 15px;
+}
+
+#student-list {
+  display: flex;
+  padding: 20px;
+}
+
+#student-list div {
+  width: 100px;
+}
+
+table {
+  width: 100%;
+}
+
+table th td {
+  text-align: left;
+}
